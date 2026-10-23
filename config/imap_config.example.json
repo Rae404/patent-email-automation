@@ -1,0 +1,11 @@
+{
+  "host": "imap.example.com",
+  "port": 993,
+  "use_ssl": true,
+  "username": "your-email@example.com",
+  "password": "邮箱授权码或应用专用密码，不建议填写网页登录密码",
+  "mailbox": "INBOX",
+  "search": "SUBJECT \"专利\"",
+  "max_messages": 50
+}
+

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patent-email-automation"
+version = "0.1.0"
+description = "A local patent email and Excel automation prototype originally built for my mum."
+requires-python = ">=3.10"
+dependencies = ["openpyxl>=3.1,<4"]
+
+[tool.setuptools.packages.find]
+where = ["app"]
